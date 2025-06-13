@@ -38,7 +38,7 @@ Temperatura: 24.3 °C    Umidade: 54.9 %
 Temperatura: 24.4 °C    Umidade: 55.1 %
 Temperatura: 24.3 °C    Umidade: 54.8 %
 
-📷 ![Circuito Simulado no VSCode](https://github.com/Amand95/Enterprise-Challenge---Sprint-2/blob/89075d81c33cca076d24d13aa426fedca10073e1/ESP32%20-%20PROJETO.png?raw=true)
+📷 ![Circuito Simulado no VSCode](https://github.com/Amand95/Enterprise-Challenge---Sprint-2/blob/c6cd8e4e4d12ffafd1df0414e38087cc80a21909/Esquema%20do%20Circuito.PNG)
 
  ### 🎯 Justificativa da Escolha
  
