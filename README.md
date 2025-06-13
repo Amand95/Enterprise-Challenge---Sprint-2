@@ -40,6 +40,20 @@ O **DHT22** foi escolhido por ser amplamente usado em aplicações industriais p
 ### 📂 Local do Código
 O código está disponível na pasta `/code` com nome `sensor_dht22.ino`.
 
+--- 
+
+Projeto: Sprint 2 – Simulação de Coleta de Dados com ESP32
+
+Integrantes:
+
+- Amanda da Silva Barros  – RM 564759
+- Bruno Gambarini  – RM 561517
+- Karina Jesus dos Santos – RM 559268
+- Lucas Fagundes - RM 565179
+
+
+Link do repositório: https://github.com/Amand95/Enterprise-Challenge---Sprint-2
+
 ### 📌 Trecho Representativo
 
 ```cpp
@@ -67,3 +81,4 @@ void loop() {
 
   delay(2000);
 }
+
