@@ -39,7 +39,7 @@ O **DHT22** foi escolhido por ser amplamente usado em aplicações industriais p
 ## 💻 Código-Fonte
 
 ### 📂 Local do Código
-O código está disponível na pasta `/code` com nome `sensor_dht22.ino`.
+O código está disponível na pasta `code` com nome `sensor_dht22.ino`.
 
 --- 
 
