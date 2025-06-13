@@ -1,5 +1,4 @@
 # 🚀 Sprint 2 – Simulação de Coleta de Dados com ESP32  
-## Enterprise Challenge – Fase 4 | Hermes Reply
 
 Este projeto representa a **segunda entrega** do desafio em parceria com a empresa **Hermes Reply**, focado na **simulação de coleta de dados em ambientes industriais digitais** utilizando o microcontrolador **ESP32** e sensores virtuais.
 
