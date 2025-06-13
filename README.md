@@ -24,14 +24,7 @@ A coleta de dados em ambientes industriais modernos é essencial para a prediç�
 
 Abaixo está uma captura de tela do Monitor Serial durante a simulação no Wokwi. Ele exibe as leituras de temperatura (em °C) e umidade relativa do ar (em %) coletadas a cada 2 segundos pelo sensor DHT22 conectado ao ESP32.
 
-```plaintext
-Temperatura: 24.3 °C    Umidade: 54.9 %
-Temperatura: 24.4 °C    Umidade: 55.1 %
-Temperatura: 24.3 °C    Umidade: 54.8 %
-
----
-
-### 🎯 Justificativa da Escolha
+ ### 🎯 Justificativa da Escolha
 
 O **DHT22** foi escolhido por ser amplamente usado em aplicações industriais para monitorar **temperatura e umidade**, dois fatores críticos para manutenção de equipamentos, segurança operacional e eficiência energética.
 
@@ -47,21 +40,24 @@ O **DHT22** foi escolhido por ser amplamente usado em aplicações industriais p
 
 > **Insight:** Durante a simulação, a temperatura variou entre **23 °C** e **26 °C**, enquanto a umidade flutuou entre **60 %** e **65 %**, demonstrando estabilidade dentro de uma faixa esperada para um ambiente industrial controlado.
 
---- 
+---
 
 ## 💻 Código-Fonte
 
-### 📂 Local do Código
+### 📂 Local do Código  
 O código está disponível na pasta `code` com nome `sensor_dht22.ino`.
 
---- 
+---
 
-Integrantes:
+## 👥 Integrantes
 
-- Amanda da Silva Barros  – RM 564759
-- Bruno Gambarini  – RM 561517
-- Karina Jesus dos Santos – RM 559268
-- Lucas Fagundes - RM 565179
+- Amanda da Silva Barros – RM 564759  
+- Bruno Gambarini – RM 561517  
+- Karina Jesus dos Santos – RM 559268  
+- Lucas Fagundes – RM 565179  
 
+---
 
-Link do repositório: https://github.com/Amand95/Enterprise-Challenge---Sprint-2
+## 🔗 Link do Repositório  
+[Enterprise Challenge - Sprint 2](https://github.com/Amand95/Enterprise-Challenge---Sprint-2)
+
