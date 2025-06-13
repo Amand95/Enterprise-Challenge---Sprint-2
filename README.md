@@ -42,8 +42,6 @@ O código está disponível na pasta `/code` com nome `sensor_dht22.ino`.
 
 --- 
 
-Projeto: Sprint 2 – Simulação de Coleta de Dados com ESP32
-
 Integrantes:
 
 - Amanda da Silva Barros  – RM 564759
