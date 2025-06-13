@@ -15,7 +15,7 @@ A coleta de dados em ambientes industriais modernos é essencial para a prediç�
 
 ## 🔌 Circuito Simulado
 
-- **Plataforma de simulação:** [Wokwi](https://wokwi.com/)
+- **Plataforma de simulação:** [Wokwi](https://wokwi.com/projects/322410731508073042)
 - **Microcontrolador:** ESP32
 - **Sensor utilizado:** DHT22 (Temperatura e Umidade)
 
