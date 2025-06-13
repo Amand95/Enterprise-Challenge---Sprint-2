@@ -18,6 +18,19 @@ A coleta de dados em ambientes industriais modernos é essencial para a prediç�
 - **Microcontrolador:** ESP32
 - **Sensor utilizado:** DHT22 (Temperatura e Umidade)
 
+--- 
+
+## Leituras do Sensor no Monitor Serial
+
+Abaixo está uma captura de tela do Monitor Serial durante a simulação no Wokwi. Ele exibe as leituras de temperatura (em °C) e umidade relativa do ar (em %) coletadas a cada 2 segundos pelo sensor DHT22 conectado ao ESP32.
+
+```plaintext
+Temperatura: 24.3 °C    Umidade: 54.9 %
+Temperatura: 24.4 °C    Umidade: 55.1 %
+Temperatura: 24.3 °C    Umidade: 54.8 %
+
+---
+
 ### 🎯 Justificativa da Escolha
 
 O **DHT22** foi escolhido por ser amplamente usado em aplicações industriais para monitorar **temperatura e umidade**, dois fatores críticos para manutenção de equipamentos, segurança operacional e eficiência energética.
