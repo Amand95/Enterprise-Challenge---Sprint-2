@@ -8,37 +8,54 @@ Este projeto representa a **segunda entrega** do desafio em parceria com a empre
 
 ## 🧠 Contexto
 
-A coleta de dados em ambientes industriais modernos é essencial para a predição de falhas e automação. Com a Indústria 4.0, sensores embarcados conectados a dispositivos como o ESP32 permitem o monitoramento em tempo real de variáveis como temperatura, vibração e luminosidade. Nesta fase, simulamos esse cenário em ambiente virtual, com foco na leitura, visualização e análise de dados sensoriais.
+A coleta de dados em ambientes industriais modernos é essencial para a predição de falhas e automação. Com a chegada da Indústria 4.0, sensores embarcados conectados a dispositivos como o ESP32 permitem o monitoramento em tempo real de variáveis como temperatura, vibração e luminosidade.
+
+Nesta fase, simulamos esse cenário em ambiente virtual e local, com foco na leitura, visualização e análise de dados sensoriais por meio de um sensor DHT22, utilizando o VSCode com PlatformIO e análise posterior em Python.
 
 ---
 
 ## 🔌 Circuito Simulado
 
-- **Plataforma de simulação:** [Wokwi](https://wokwi.com/projects/433657543736341505)
-- **Microcontrolador:** ESP32
-- **Sensor utilizado:** DHT22 (Temperatura e Umidade)
+- Plataforma de simulação: VSCode com PlatformIO
+
+- Microcontrolador: ESP32
+
+- Sensor utilizado: DHT22 (Temperatura e Umidade)
+
+- Pino de dados: GPIO 15
+
+- Frequência de leitura: A cada 2 segundos
+
+- Leitura e visualização: Monitor Serial (PlatformIO)
 
 --- 
 
 ## Leituras do Sensor no Monitor Serial
 
-Abaixo está uma captura de tela do Monitor Serial durante a simulação no Wokwi. Ele exibe as leituras de temperatura (em °C) e umidade relativa do ar (em %) coletadas a cada 2 segundos pelo sensor DHT22 conectado ao ESP32.
+Durante a execução do código, o monitor serial exibe as leituras de temperatura (°C) e umidade (%) em tempo real. Abaixo, uma amostra dessas leituras:
+
+Temperatura: 24.3 °C    Umidade: 54.9 %
+Temperatura: 24.4 °C    Umidade: 55.1 %
+Temperatura: 24.3 °C    Umidade: 54.8 %
+
+📷 ![Circuito Simulado no VSCode](https://github.com/Amand95/Enterprise-Challenge---Sprint-2/blob/89075d81c33cca076d24d13aa426fedca10073e1/ESP32%20-%20PROJETO.png?raw=true)
 
  ### 🎯 Justificativa da Escolha
-
-O **DHT22** foi escolhido por ser amplamente usado em aplicações industriais para monitorar **temperatura e umidade**, dois fatores críticos para manutenção de equipamentos, segurança operacional e eficiência energética.
-
-📷 **Imagem da simulação do circuito no Wokwi**  
-
-![Circuito Simulado](https://github.com/Amand95/Enterprise-Challenge---Sprint-2/blob/d2fb429154699f07bdc392e484de969c79a59664/ESP32.png)
+ 
+O sensor DHT22 foi escolhido por ser amplamente usado em aplicações industriais para monitoramento de temperatura e umidade, dois fatores críticos para manutenção de equipamentos, segurança operacional e eficiência energética. Ele é compatível com o ESP32 e fácil de simular com dados estáveis.
 
 ---
 
 ## 📊 Análise de Dados
 
-![Gráfico de Temperatura e Umidade](analise/grafico_simulacao.png)
+#### Gráfico 1: Temperatura ao Longo do Tempo  
+![Gráfico de Temperatura](analise/grafico_temperatura.png)  
 
-> **Insight:** Durante a simulação, a temperatura variou entre **23 °C** e **26 °C**, enquanto a umidade flutuou entre **60 %** e **65 %**, demonstrando estabilidade dentro de uma faixa esperada para um ambiente industrial controlado.
+#### Gráfico 2: Vibração no Eixo X ao Longo do Tempo  
+![Gráfico de Vibração](analise/grafico_vibracao.png)
+
+**Insights:**  
+Durante a simulação, a temperatura se manteve estável entre 23 °C e 26 °C, enquanto a vibração medida no eixo X indicou variações características do funcionamento normal do motor, permitindo detectar possíveis anomalias futuras.
 
 ---
 
