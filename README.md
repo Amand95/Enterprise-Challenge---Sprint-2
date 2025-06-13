@@ -23,6 +23,7 @@ A coleta de dados em ambientes industriais modernos é essencial para a prediç�
 O **DHT22** foi escolhido por ser amplamente usado em aplicações industriais para monitorar **temperatura e umidade**, dois fatores críticos para manutenção de equipamentos, segurança operacional e eficiência energética.
 
 📷 **Imagem da simulação do circuito no Wokwi**  
+
 ![Circuito Simulado](https://github.com/Amand95/Enterprise-Challenge---Sprint-2/blob/d2fb429154699f07bdc392e484de969c79a59664/ESP32.png)
 
 ---
