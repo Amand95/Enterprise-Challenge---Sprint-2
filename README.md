@@ -42,7 +42,10 @@ Temperatura: 24.3 °C    Umidade: 54.8 %
 
  ### 🎯 Justificativa da Escolha
  
-O sensor DHT22 foi escolhido por ser amplamente usado em aplicações industriais para monitoramento de temperatura e umidade, dois fatores críticos para manutenção de equipamentos, segurança operacional e eficiência energética. Ele é compatível com o ESP32 e fácil de simular com dados estáveis.
+Para este projeto, foram selecionados os seguintes sensores virtuais:
+
+* *DHT22 (Sensor de Temperatura e Umidade):* Escolhido por ser um indicador primário de estresse e superaquecimento em motores.
+* *MPU6050 (Acelerômetro e Giroscópio):* Utilizado para simular a *vibração* do motor. Alterações no padrão de vibração são um sinal claro de problemas mecânicos.
 
 ---
 
