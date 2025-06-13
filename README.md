@@ -27,6 +27,14 @@ O **DHT22** foi escolhido por ser amplamente usado em aplicações industriais p
 
 ---
 
+## 📊 Análise de Dados
+
+![Gráfico de Temperatura e Umidade](analise/grafico_simulacao.png)
+
+> **Insight:** Durante a simulação, a temperatura variou entre **23 °C** e **26 °C**, enquanto a umidade flutuou entre **60 %** e **65 %**, demonstrando estabilidade dentro de uma faixa esperada para um ambiente industrial controlado.
+
+--- 
+
 ## 💻 Código-Fonte
 
 ### 📂 Local do Código
