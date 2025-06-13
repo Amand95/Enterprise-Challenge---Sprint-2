@@ -59,6 +59,14 @@ Durante a simulação, a temperatura se manteve estável entre 23 °C e 26 °C, 
 
 ---
 
+## 🌐 Acesso ao Dashboard
+
+Acesse o dashboard interativo da solução por meio do link abaixo. Nele, é possível visualizar em tempo real os dados simulados processados:
+
+🔗 [Clique aqui para acessar o dashboard](http://57.154.50.104:8503/)
+
+---
+
 ## 💻 Código-Fonte
 
 ### 📂 Local do Código  
